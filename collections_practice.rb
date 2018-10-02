@@ -25,7 +25,7 @@ end
 
 def kesha_maker(array)
   array.map do |name|
-    name.split('') do |letter|
+    name.split('').map do |letter|
       letter.insert(2, "$").delete_at(3)
     end
   end
