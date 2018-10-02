@@ -29,3 +29,5 @@ def kesha_maker(array)
       letter[3] = $
     end
   end
+end
+end
