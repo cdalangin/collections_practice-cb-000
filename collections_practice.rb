@@ -30,3 +30,7 @@ def kesha_maker(array)
     letters.join
   end
 end
+
+def find_a(array)
+  array.sort
+end
